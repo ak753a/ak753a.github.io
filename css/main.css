@@ -153,8 +153,9 @@ body {
   margin-right: 10px;
 }
 .goods_search input {
+  outline: none;
   padding: 15px;
-  border: 0px;
+  border: 0px none #fff;
   font-family: "Noto Serif", sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -163,6 +164,7 @@ body {
   margin: 0px;
 }
 .goods_search button {
+  outline: none;
   border: 0px;
   min-height: 100%;
   cursor: pointer;
